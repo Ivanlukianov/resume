@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #2F4F4F;
+	background-color: #F8F8FF;
+}
+
+.container {
+	max-width: 750px;
+	margin: auto;
+	padding-top: 30px;
+}
+
+
+.avatar {
+	width: 200px;
+	border-radius: 20px;
+	box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+}
+
+.social {
+	padding: 25px;
+}
+
+.info {
+	margin-bottom: 10px;
+	display: flex;
+}
+
+.info-text  {
+	font-style: italic;
+	text-decoration: underline;
+	margin: 0;
+	margin-left: 30px;
+
+
+}
+
+@media (max-width: 650px) {
+	.info{
+		display: block;
+		text-align: center;
+	}
+}
+
+.card {
+	border: 2px;
+	border-radius: 10px;
+	padding: 15px 20px;
+	background: #F0FFF0;
+	margin-bottom: 20px; 
+	background-color: #F0FFF0;
+} 
+
+
+
+.card h2 {
+	padding: 10px;
+}
+
+.card_1 {
+	border: 2px;
+	border-radius: 10px;
+	padding: 20px;
+	background: #D3D3D3;
+	margin-bottom: 20px;
+}
+
+.card_1 h2 {
+	padding: 10px;
+}
+
+
+/* a {
+	transition: all .1s;
+text-decoration: none;
+} */
+/* a:hover {
+	text-decoration: underline;
+	color: red;
+	font-size: 1.1rem;
+} */
+
+/* .btn1 {
+	background-color: black;
+	color: white;
+	padding: 10px 30px;
+	border-radius: 5px;
+	opacity: 0.8;
+} */
+
+.btn {
+	background-color: black;
+	color: #F0FFF0;
+	padding: 15px 30px;
+	border-radius: 5px;
+}
+
+.btn:hover {
+	cursor: pointer;
+	color: red;
+	opacity: .8;
+}
+
+.links {
+	margin-top: 10px;
+}
+.lists {
+	padding-left: 40px;
+}
+.lists li {
+	margin-bottom: 10px;
+}
+
+.table {
+	padding-left: 30px;
+}
+.table td {
+	padding-bottom: 10px;
+}
+
+.form h2 {
+text-align: center;
+}
+
+.form-row {
+	margin-bottom: 10px;
+display: flex;
+}
+
+.form-row .form-group {
+	/* display: inline-block; */
+	margin-right: 20px;
+	/* width: calc(50%-20px); */
+	width: 50%;
+}
+
+.form-row .form-group:last-child {
+	margin-right: 0;
+}
+@media (max-width:650px) {
+	.form-row {
+	display: block;
+	}
+
+	.form-row .form-group {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+}
+
+.form-group label {
+display: block;
+font-size: 14px;
+color: #2F4F4F;
+}
+
+
+.form-group input, .form-group textarea {
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid #ccc;
+	color: black;
+	padding: 15px 0 10px;
+	outline: none;
+}
+
+
+
+
