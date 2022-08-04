@@ -1,3 +1,3 @@
 # Моё резюме
 
-## [первая работа](https://ivanlukianov.github.io/resume/").
+## [первая работа](https://ivanlukianov.github.io/resume")
